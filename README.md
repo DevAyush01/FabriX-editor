@@ -1,12 +1,24 @@
-# React + Vite
+**FabriX-editor**
+FabriX-editor is a dynamic web-based image editor built using React, Tailwind CSS, and Fabric.js. It allows users to search for images via the Pixabay API and then fully manipulate those images on an interactive canvas. Users can add shapes, text, and layers, and perform transformations like resizing, rotating, and dragging—making it a lightweight yet powerful image editing tool.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+🔍 Image Search with Pixabay API
+Search and fetch images directly from the Pixabay API using keywords.
 
-Currently, two official plugins are available:
+🖼️ Canvas Image Editing
+Add images to a Fabric.js-powered canvas where you can:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.Move, resize, and rotate elements
 
-## Expanding the ESLint configuration
+2.Add and customize text
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3.Insert shapes like rectangles, circles, and triangles
+
+4.Layer elements and manage them dynamically
+
+⚙️ Full Fabric.js Integration
+Leverages the full power of Fabric.js for canvas manipulation.
+
+💅 Responsive UI with Tailwind CSS
+Clean, modern interface with utility-first styling.
+
